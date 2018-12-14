@@ -1,0 +1,105 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	/*background-color: #a6a6a6;*/
+	height: 50%;
+	overflow: hidden;
+}
+.logo{
+	width: 20%;
+}
+.logo img {
+    width: 52%;
+    float: left;
+    height: 56px;
+    margin: 13px;
+}
+.menu {
+    width: 70%;
+    float: right;
+    margin-top: 8px;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	text-decoration: none;
+	padding: 0 25px;
+	color: black;
+	text-transform: uppercase;
+}
+.banar{
+	/*border: 5px solid black;*/
+	min-height: 100px;
+	overflow: hidden;
+	margin-top: 20px;
+}
+.section-1{
+	/*min-height: 500px;*/
+	float: left;
+	width: 50%;
+}
+.section-1 img{
+	width: 100%;
+	height: 100%;
+}
+.section-2{
+	/*background-color: red;*/
+	/*min-height: 500px;*/
+	float: right;
+	width: 50%;
+}
+.section-2 h1 {
+    margin: 52px 14px;
+}
+.section-2 p {
+    margin: 14px 21px;
+    text-align: justify;
+}
+.row {
+	margin-top: 20px;
+	text-align: center;
+	/*border: 5px solid black;*/
+	overflow: hidden;
+}
+.colum {
+	width: 33.33%;
+	float: left;
+}
+.colum img{
+    width: 90%;
+    border-radius: 10px;
+}
+.colum h1 {
+    text-align: left;
+    margin-left: 23px;
+}
+.colum p {
+    text-align: left;
+    margin-left: 23px;
+}
+.footer{
+	background-color: #343D46;
+	min-height: 200px;
+}
+.footer-colum{
+	width: 25%;
+	height: 200px;
+	float: left;
+	margin-right: -8px;
+	
+}
+.footer-colum h2{
+	text-align: left;
+	margin-left: 25px;
+}
+.footer-colum p{
+	text-align: justify;
+	margin-left: 25px;
+}
